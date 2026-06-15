@@ -1,3 +1,7 @@
+# link : https://leetcode.com/problems/generate-parentheses/description/?envType=problem-list-v2&envId=backtracking
+
+
+
 class Solution(object):
     def generateParenthesis(self, n):
         """
