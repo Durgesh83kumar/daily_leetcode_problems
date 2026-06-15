@@ -1,6 +1,3 @@
-http://leetcode.com/problems/rotate-image/
-
-
 class Solution(object):
     def rotate(self, matrix):
         """
