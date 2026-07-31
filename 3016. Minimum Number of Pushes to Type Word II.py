@@ -11,10 +11,10 @@ class Solution(object):
         # Frequencies in descending order
         counts = sorted(freq.values(), reverse=True)
 
-        ans = 0
+        answer = 0
 
         for i, f in enumerate(counts):
             pushes = i // 8 + 1
-            ans += f * pushes
+            answer += f * pushes
 
-        return ans
+        return answer
