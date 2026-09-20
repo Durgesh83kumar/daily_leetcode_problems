@@ -25,7 +25,7 @@ class Solution(object):
         #             max_sum = current_sum
         # return max_sum
 
-        # O(n)
+        # O(n) # Kadane's Algorithm
         current_sum = 0
         max_sum = float('-inf')
         for i in range(len(nums)):
