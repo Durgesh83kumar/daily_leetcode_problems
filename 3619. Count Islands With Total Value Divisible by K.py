@@ -1,7 +1,7 @@
 class Solution(object):
     def countIslands(self, grid, k):
         m, n = len(grid), len(grid[0])
-        ans = 0
+        answer = 0
 
         for i in range(m):
             for j in range(n):
@@ -24,6 +24,6 @@ class Solution(object):
                             stack.append((nx, ny))
 
                 if total % k == 0:
-                    ans += 1
+                    answer += 1
 
-        return ans
+        return answer
